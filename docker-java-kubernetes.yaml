@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server-service
-          image: alex9dim58/DockerCICD
+          image: alex9dim58/docker_cicd
           imagePullPolicy: Always
 ---
 apiVersion: v1
