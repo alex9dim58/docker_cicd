@@ -34,7 +34,8 @@ import jakarta.validation.Validator;
  */
 class ValidatorTests {
 
-	private Validator createValidator() {
+	private Validator createValidator() 
+        {
 		LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
 		localValidatorFactoryBean.afterPropertiesSet();
 		return localValidatorFactoryBean;
